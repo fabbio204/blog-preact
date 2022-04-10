@@ -1,0 +1,15 @@
+nav::after{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+.menu .menu-item {
+    float: left;
+    list-style: none;
+    padding: 0.5em 1em;
+}
+
+.menu .menu-item a {
+    text-decoration: none;
+}
