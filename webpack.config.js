@@ -4,7 +4,7 @@ const webpack = require('webpack')
 
 module.exports = {
     entry: {
-        index: './src/index.jsx'
+        index: './src/index.tsx'
     },
     module: {
         rules: [
@@ -25,7 +25,7 @@ module.exports = {
         ],
     },
     resolve: {
-        extensions: ['.tsx', '.ts', '.js', '.css'],
+        extensions: ['.tsx', '.ts', '.js', '.jsx', '.css'],
 
         alias: {
             "react": "preact/compat",
